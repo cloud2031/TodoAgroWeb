@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Formulario PQRS</title>
+        <link rel="stylesheet" type="text/css" href="css/Formulario.css"></link>
+    </h:head>
+    <h:body style="background-image: url(img/0001.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+">	
+    
+<nav style="width: 40%">
+	<h1>PQRS:</h1>
+<form>
+
+	<label for="Producto">Nombre del Cliente:</label>
+        <input type="text" placeholder="Nombre de cliente"></input>
+
+	<label for="Producto">Numero de documento:</label>
+	<input type="number" placeholder="Nombre Producto"></input>	
+
+	<p>Tipo de documento:</p>
+	 <select> 
+
+			<option>CC</option>
+			<option>NIT</option>
+			<option>RUT</option>
+			<option>Otro</option>
+	</select>
+
+	<p>Clase de reclamo:</p>
+	 <select> 
+
+			<option>Peticion</option>
+			<option>Queja</option>
+			<option>Recurso</option>
+			<option>Sugerencia</option>
+	</select>
+
+	<p>Medio:</p>
+	 <select> 
+
+			<option>Presencial</option>
+			<option>Pagina Web</option>
+			
+	</select>
+
+	<p>Concepto:</p>
+	 <select> 
+
+			<option>Demora</option>
+			<option>Averia</option>
+			<option>Mal servicio (Funcionario)</option>
+			<option>Otro</option>
+	</select>
+
+     <label>Fecha de Diligenciamiento:</label>
+	 <input type="date"></input>
+    
+    <p>Comentarios:</p>
+	<textarea id= "Descripcion" placeholder="Maximo 500 carateres." maxlength="520"></textarea>	
+    <input type="submit" value="Enviar"></input>
+</form>
+</nav>
+    </h:body>
+</html>
+

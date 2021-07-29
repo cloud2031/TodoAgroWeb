@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Modificar Productos</title>
+        <link rel="stylesheet" type="text/css" href="css/Modificar.css"></link>
+    </h:head>
+    <h:body style="background-image: url(img/13087.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;">
+    <div> <h:link outcome="interfazAdministrador.xhtml" class="inicio">
+            Volver al inicio
+            </h:link></div>
+	
+<form>
+	<h1>Modificar Productos</h1>
+
+	<label for="Producto">Ingrese Nombre Producto:</label>
+	<input type="text" placeholder="Nombre Producto" name="Producto" id="Ingrese Nombre Producto"></input>
+
+	<label for="Producto">Cod Producto:</label>
+	<input type="text" placeholder="Cod Producto" name="Producto" id="cod producto"></input>
+
+     <p>Categoria:</p>
+	 <select> 
+
+			<option>Categoria 1</option>
+			<option>Categoria 2</option>
+			<option>Categoria 3</option>
+	</select>
+
+	<label for="Producto">Marca:</label>
+	<input type="text" placeholder="Marca" name="Producto" id="Marca"></input>
+
+	<label for="Producto">Precio:</label>
+	<input type="text" placeholder="Precio" name="Producto" id="Precio"></input>
+
+    <input type="date"/>
+
+	<label for="Producto">Descripcion:</label>
+	<textarea id= "Descripcion" placeholder="Descripcion"></textarea>	
+        <input type="submit" value="Guardar"></input>
+</form>
+
+
+
+    </h:body>
+</html>
+

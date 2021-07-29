@@ -1,0 +1,144 @@
+body{
+	font-synthesis: arial, helvetica;
+	background-image: url(plantas.png);
+}
+.Registro{
+ 
+ margin-top: 15px;
+ text-decoration: none;
+ background: #66CAE1;
+ color: #fff;
+ padding: 10px 15px;
+ border-radius: 5px;
+ font-size: 15px;
+ position: relative;
+ right: -20px;
+ top: 5px;
+}
+.menu ul{
+	justify-content: center;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #9CD381;
+	width: 90%;
+	max-width: 800px;
+	margin:auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px #909090;
+}
+.menu li a{
+	font-size: 1.0em;
+	text-decoration:none;
+	color: #000;
+	padding: 15px 68px;
+	display: flex;
+
+}
+.menu li{
+	display: inline-block;
+	text-align:center;
+}
+.menu li a:hover{
+	background:#FFA74D;
+}
+/*----espacio---*/
+.espacio{
+	border-radius: 2px;
+	margin:0.5em auto;
+	width: 1000px;
+	height: 3px;
+	background: #D5F5B2;
+}
+	/*-------columna---*/
+.columna{
+ height: 363px;
+ width: 800px;
+ margin:auto;
+ background:#D5F5B2;
+ display: flex;
+}
+.columna .producto{
+margin: 20px 30px;
+}
+.columna .columna_img{
+height: 200px;
+ width: 300px;
+}
+.columna .izquierda {
+ height: 300px;
+ width: 500px;
+ margin: 20px 60px;
+ background:#B18C44;
+ border-radius: 5px;
+}
+.controls {
+  margin: 20px 60px;
+  width: 200px;
+  height: 15px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 15px;
+  color: #000 ;
+}
+.columna .container{
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+/*--------baja--------*/
+.baja{
+ height: 330px;
+ width: 1000px;
+ margin:auto;
+ background:#BDBDBD;
+ 
+ border-radius: 5px;
+}
+.menu2 ul{
+	justify-content: center;
+}
+.menu2{
+	list-style: none;
+	padding: 0;
+	background: #DEDEDE;
+	width: 1200px;
+	max-width: 1000px;
+	box-shadow: 0px 0px 8px #909090;
+}
+.menu2 li a{
+	font-size: 1.0em;
+	text-decoration:none;
+	color: #000;
+	padding: 15px 94px;
+	display: flex;
+
+}
+.menu2 li{
+	display: inline-block;
+	text-align:center;
+}
+.menu2 li a:hover{
+	background:#FFA74D;
+	border-top: 1px solid #fff;
+}
+.menu3 .datos{
+	display: flex;
+	padding-right: 10px;
+}
+.menu3 .datos2{
+	font-size: 1.0em;
+	text-decoration:none;
+	color: #000;
+	padding: 15px 80px;
+	display: flex;
+	background:#939392;
+	width: 700px;
+	 border-right: #fff solid;	
+}
+.menu3{
+}

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="css/acceso.css"></link>
+    </h:head>
+    <h:body style="background-image: url(img/fondo.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+">
+    
+<form name="form" action="InicioSesionServlet" class="formularioLogin" id="formularioLogin">
+
+    <h1>Acceder</h1>
+    <div>
+        <p> Correo Electronico: </p>   
+        <input type="text" placeholder="example@example.com.co" id="txtUsuario" name="txtUsuario"/> 
+        <p>Contraseña:</p> 
+        <input type="password"  placeholder="Password" id="txtContraseña" name="txtContrasena" /> 
+        <li><a href="#" onclick="cargarAltaUsuario()">Registro de Usuarios</a></li>
+        <li><a href="#" onclick="cargarAltaUsuario()">Registro de Usuarios</a></li>
+    <h:link outcome="paginaRegistro.xhtml" id="registro"> ¿No estas registrado? </h:link>
+   <input onclick="acceder()"  type="submit" value="Iniciar Sesion" class="btn"/>
+   <input type="button" value="Borrrar Datos" class="btn" onclick="resetearFormularioLogin()" />
+
+</div>
+</form> 
+    </h:body>
+    <script type="text/javascript" src="js/acceso.js"></script>
+    <script src="js/funcionesLogin.js"></script>
+</html>
+

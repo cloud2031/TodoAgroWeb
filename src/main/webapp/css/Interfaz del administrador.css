@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+* {
+  font-family: 'Open sans';
+  
+}
+body {
+	background-image: url(img/13087.jpg); 
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+.encabezado {
+	position: relative;
+	left: 23%;
+	background: #9ADA92;
+	width: 50%;
+	height: 30px;
+	padding: 3px;
+	border-radius: 3px;
+	padding: 15px;
+}
+.encabezado .usuario{
+font-size: 1.2em;
+position: absolute;
+right: 10%;
+}
+.encabezado .logoUsuario{
+	position: absolute;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+
+}
+
+.btn-menu img{
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	cursor: pointer;
+}
+.encabezado a{
+	background-color: transparent;
+	border: 0;
+}
+.encabezado a img{
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+}
+
+.acceso {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: auto;
+	justify-content: center;
+}
+.acceso .titulo{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+	font-size: 2em;
+}
+.acceso .lista{
+	padding: 100px;
+	padding-top: 10px;
+}
+.acceso .cuadro a {
+	color: #000;
+}
+.acceso .cuadro  {
+	border-radius: 3px;
+	text-decoration: none;
+	display: inline-block;
+	border:solid 1px #515552;
+	width: 29%;
+	margin: 5px;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	height: 150px;
+	background: #fff;
+	color: #000;
+	box-shadow: 15px 15px 15px -10px black;
+}
+.cuadro:hover {
+	color: #245218;
+	transition: all .3s;
+	background: #B1DEA5;
+	border:solid 1px #67BA61;
+}
+.acceso .cuadro img {
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+}
+.acceso .cuadro h1{
+    display: block;
+    margin: auto;
+}
+.acceso .cuadro p{
+	display: block;
+	margin-left: 90%;
+	font-size: 2em;
+	margin-top: 0px;
+	position: relative;
+	right: 15%;
+
+}
+.cerrar-sesion{
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 5px;
+	bottom: 15px;
+}
+.cerrar-sesion a {
+	padding: 5px;
+	background: #238E38;
+	border-radius: 5px;
+
+}

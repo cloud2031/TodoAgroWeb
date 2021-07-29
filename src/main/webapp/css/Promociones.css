@@ -1,0 +1,117 @@
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+* {
+  font-family: 'Open sans';
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+section {
+
+	border:solid 1px #cacaca;
+	border-radius: 5px;
+	margin: 30px;
+	width: 66%;
+	height: 680px;
+	background: #f0f0f0;
+	box-shadow: 3px 0px 60px rgba(163,163,163, 3);
+	border-radius: 5px;
+}
+.inicio{
+ 
+ margin-top: 25px;
+ text-decoration: none;
+ background: #72e96a;
+ color: #000;
+ padding: 10px 15px;
+ border-radius: 5px;
+ font-size: 15px;
+ position: relative;
+ right: 100px;
+ top: -300px;
+ border-radius: 5px;
+}
+.Titulo {
+
+   display: block;
+   margin:auto;
+   width: 50%;
+   margin-top: 20px;
+   background: #FAAC49;
+   padding: 5px;
+    border-radius: 5px;
+   text-align: center;
+
+}
+.Titulo h1{
+
+	display: block;
+	margin: 0px;
+	padding: 20px;
+}
+.buscar {
+	padding: 10px;
+	display: inline-flex;
+	margin: auto;
+	padding-left: 130px;
+}
+.buscar img{
+	display: block;
+	margin: auto;
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	cursor: pointer;
+}
+input{
+	border: 2px solid #d0d0d0;
+	border-radius: 3px;
+	padding: 5px;
+	width: 500px;
+	height: 30px;
+	margin: 10px;	
+}
+.lista{
+	padding: 20px;
+	overflow: scroll;
+	width: 95%;
+	height: 68%;
+	background-color: white;
+}
+.cliente{
+	border: solid 1px #727272;
+	padding: 10px;
+	margin: 10px;
+	height:auto;
+	width: 210px;
+	display: inline-block;
+}
+.cliente img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+}
+.cliente h2{
+	text-align: center;
+	font-size: 1.2em;
+}
+.cliente p{
+	text-align: left;
+	font-size: 0.8em;
+}
+.cliente button {
+	display: block;
+	margin: auto;
+
+}
+.cliente select {
+	margin: 20px 45px;
+}
+.cliente textarea {
+	width: 100%;
+}

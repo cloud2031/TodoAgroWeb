@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+* {
+  font-family: 'Open sans';
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width:100%;
+  background-size: cover;
+  background-image: url(img/fondo.jpg); 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+	
+.Home{
+ 
+ margin-top: 25px;
+ text-decoration: none;
+ background: #66CAE1;
+ color: #fff;
+ padding: 10px 15px;
+ border-radius: 5px;
+ font-size: 15px;
+ position: relative;
+ right: -20px;
+ top: 15px;
+}
+.cuadro{
+	width: 700px;
+  background: #fff;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 2px;
+  font-family: 'calibri';
+  color: #000;
+  box-shadow: 7px 13px 37px #000;
+  border-radius: 5px;
+}
+.cuadro .titulo{
+	margin: auto;
+	background: black;
+	width: 50%;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.control {
+  margin: 20px 20px;
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #FFA016;
+  font-family: 'calibri';
+  font-size: 15px;
+  color: #000 ;
+  
+}
+.Califica {
+	margin: 0px;
+	padding: 0px;
+}
+.Califica .formulario{
+	background: blue;
+}
+.boton{
+	padding: 5px 20px;
+	border-radius: 20px;
+	border:0;
+	margin: 0px 20px;
+}
+.cajon  .boton1{
+	text-decoration:none;
+	background: #ff7300;
+	font-size: 20px;
+	color: white;
+	width: 50px;
+	margin: 20px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid #ff7300;
+	padding:5px;
+	border-radius: 5px;
+	margin-left: 300px;
+}
+

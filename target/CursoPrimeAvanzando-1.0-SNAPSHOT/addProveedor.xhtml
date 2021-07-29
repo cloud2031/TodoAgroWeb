@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title>Agregar Proveedor</title>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"></link>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>-->
+	<link rel="stylesheet" href="css/Agregar producto.css"></link>
+        <script src="js/Agregar producto.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    </h:head>
+    <h:body style="background-image: url(img/13087.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;">
+        <div> <h:link outcome="interfazAdministrador.xhtml" class="inicio">
+            Volver al inicio
+            </h:link></div>
+	<main>
+		<nav>
+			<h1>Agregar Proveedor</h1>
+		<form action="" class="formulario" id="formulario">
+			<!-- Grupo: numero -->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Ingrese el RUT del Proveedor:</label>
+				<div class="formulario__grupo-input">
+                                    <input type="password" class="formulario__input" name="password" id="password" placeholder="RUT"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">No puede contener letras.</p>
+			</div>
+			<!-- Grupo: Texto -->
+			<div class="formulario__grupo" id="grupo__usuario">
+				<label for="usuario" class="formulario__label">Ingrese el nombre del Proveedor:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Nombre del Proveedor"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El nombre del producto tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+<!-- Grupo: texto -->
+
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Marca</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Marca de Producto"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La Marca tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Numero-->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Ingrese el Nombre de la Empresa</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="password" id="password" placeholder="Nombre de la Empresa"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo puede contener numeros</p>
+			</div>
+
+			
+			
+			<!-- Grupo: texto -->
+
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Ingrese la Direccion:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Direccion"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La Direccion tiene que ser de 4 a 16 dígitos. </p>
+			</div>
+
+			
+			<!-- Grupo: numero -->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Numero de Contacto:</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="password" id="password" placeholder="Digite El Numero"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">No puede contener letras.</p>
+			</div>
+
+			<!-- Grupo: numero -->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Numero de Contacto Adicional:</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="password" id="password" placeholder="Digite El Numero"></input>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">No puede contener letras.</p>
+			</div>
+          <div class="formulario__grupo">
+			<label class="formulario__label" >Categoria</label>
+			 <select class="formulario__input"> 
+
+			<option>Categoria 1</option>
+			<option>Categoria 2</option>
+			<option>Categoria 3</option>
+	        </select>
+	         </div>
+	         
+         <div class="formulario__grupo">
+            <label for="Producto" class="formulario__label">Descripcion:</label>
+	<textarea  placeholder="Descripcion" class="formulario__input-tex" id="grupo__password"></textarea>	
+	     </div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</form>
+		</nav>
+	</main>
+
+	
+    </h:body>
+</html>
+
